@@ -1,0 +1,18 @@
+[package]
+name = "pwd_utility_bak"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix = "0.13.0"
+actix-http = "3.0.0-beta.4"
+actix-web = "4.0.0-beta.3"
+env_logger = "0.9.0"
+orion = "0.17.1"
+serde_json= "1.0.79"
+serde = { version = "1", features = ["derive"] }
+actix-cors = "0.6.4"
+actix-web-validator = "5.0.1"
+validator = {version = "0.16.0",features = ["derive"]}
