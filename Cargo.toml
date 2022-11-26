@@ -2,6 +2,7 @@
 name = "pwd_utility_bak"
 version = "0.1.0"
 edition = "2021"
+authors = ["Parthiv T <manipa06@proton.me>"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
