@@ -58,7 +58,7 @@ async fn main()->std::io::Result<()>{
         .service(echo)
         
     })
-    .bind(("", 8080)).expect("Unable to start server")
+    .bind(("localhost", 8080)).expect("Unable to start server")
     .run()
     .await
     
